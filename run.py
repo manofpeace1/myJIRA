@@ -1,4 +1,6 @@
-from ticket_key import search_ticket
+from ticket_key import get_response_json, find_params, search_ticket
 
-
-search_ticket()
+while True:
+    get_response_json()
+    find_params()
+    search_ticket()
