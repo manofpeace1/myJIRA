@@ -5,7 +5,7 @@ import config
 
 def get_response_json():
     global response_json
-    user_input_key = input("\n>>> Ticket Key: ")
+    user_input_key = input('\n👩‍🚀 JIRA Ticket Key >>> ')
     if '-' not in user_input_key:
         user_input_key_split = split('(\d+)', user_input_key)
         user_input_key = f'{user_input_key_split[0]}-{user_input_key_split[1]}'
